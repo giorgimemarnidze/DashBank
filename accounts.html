@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankDash.</title>
+    <link rel="stylesheet" href="styles/accounts.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page__wrapper--container">
+        <nav>
+            <div class="navigation__container">
+                <a href="index.html"><img src="accets/images/icons/bank-logo.svg" alt="image" /></a>
+                <ul class="navigation__container--item">
+                    <li>
+                        <img src="accets/images/icons/nav-gray-home-icon.svg" alt="image" />
+                        <a href="index.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <img src="accets/images/icons/nav-transactions.svg" alt="image" />
+                        <a href="transactions.html">Transactions</a>
+                    </li>
+                    <li>
+                        <div class="active__nav--container"></div>
+                        <div class="nav__item">
+                            <img src="accets/images/icons/nav-accounts-blue-icon.svg" alt="image" />
+                            <a href="accounts.html">Accounts</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="accets/images/icons/nav-investiment.svg" alt="image" />
+                        <a href="investiments.html">Investiments</a>
+                    </li>
+                    <li>
+                        <img src="accets/images/icons/nav-creditcard.svg" alt="image" />
+                        <a href="creditcards.html">Credit Cards</a>
+                    </li>
+                    <li>
+                        <img src="accets/images/icons/nav-loan.svg" alt="image" />
+                        <a href="loans.html">Loans</a>
+                    </li>
+                    <li>
+                        <img src="accets/images/icons/nav-service.svg" alt="image" />
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <img src="accets/images/icons/nav-privilegies.svg" alt="image" />
+                        <a href="">My Privilegies</a>
+                    </li>
+                    <li>
+                        <img src="accets/images/icons/nav-setting.svg" alt="image" />
+                        <a href="setting.html">Setting</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="header__main--container">
+            <header>
+                <div class="header__container">
+                    <h1>Accounts</h1>
+
+                    <div class="header__container--rightside">
+                        <div class="search__container--header">
+                            <img src="accets/images/icons/lupa.svg" alt="image" width="20px" />
+                            <input type="text" placeholder="Search for something" class="header__search--input" />
+                        </div>
+
+                        <div class="header__icon--container">
+                            <img src="accets/images/icons/header-setting-icon.svg" alt="image" width="20px" />
+                        </div>
+
+                        <div class="header__icon--container">
+                            <img src="accets/images/icons/header-bell-icon.svg" alt="image" width="20px" />
+                        </div>
+                        <img src="accets/images/header-user-image.png" alt="image" class="header__user--image" />
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="content__wrapper">
+                    <section>
+                        <div class="main__container">
+                            <div class="main__first--section">
+                                <div class="about__money--container">
+                                    <div class="money__container--image money__image--background1">
+                                        <img src="accets/images/icons/my-balance-icon.svg" alt="image" width="30px" />
+                                    </div>
+                                    <div>
+                                        <span class="light__blue--span">My Balance</span>
+                                        <span class="dark__big--span">$12,750</span>
+                                    </div>
+                                </div>
+                                <div class="about__money--container">
+                                    <div class="money__container--image money__image--background2">
+                                        <img src="accets/images/icons/income-icon.svg" alt="image" />
+                                    </div>
+                                    <div>
+                                        <span class="light__blue--span">Income</span>
+                                        <span class="dark__big--span">$5,600</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="about__money--container">
+                                    <div class="money__container--image money__image--background3">
+                                        <img src="accets/images/icons/expense-icon.svg" alt="image" />
+                                    </div>
+                                    <div>
+                                        <span class="light__blue--span">Expense</span>
+                                        <span class="dark__big--span">$3,460</span>
+                                    </div>
+                                </div>
+                                <div class="about__money--container">
+                                    <div class="money__container--image money__image--background4">
+                                        <img src="accets/images/icons/total-saving-icon.svg" alt="image" />
+                                    </div>
+                                    <div>
+                                        <span class="light__blue--span">Total Saving</span>
+                                        <span class="dark__big--span">$7,920</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="main__second--section">
+                            <div class="transaction">
+                                <h2>Last Transaction</h2>
+                                <div class="transaction__container">
+                                    <div class="transaction__container--item">
+                                        <div class="transaction__icon--container green__background">
+                                            <img src="accets/images/icons/transaction-container-first-icon.svg" alt="image"
+                                                width="27px" />
+                                        </div>
+                                        <div class="transaction__container--little--wrapper">
+                                            <div class="transaction__date--container first__transaction--date">
+                                                <span>Spotify Subscription</span>
+                                                <span class="light__blue--span">25 Jan 2021</span>
+                                            </div>
+                                            <div class="four__span--container">
+                                                <span class="light__blue--span">Shopping</span>
+                                                <span class="light__blue--span">1234 ****</span>
+                                                <span class="light__blue--span">Pending</span>
+                                                <span class="red__span">-$150</span>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="transaction__container--item">
+                                        <div class="transaction__icon--container blue__background">
+                                            <img src="accets/images/icons/transaction-container-second-icon.svg" alt="image"
+                                                width="27px" />
+                                        </div>
+                                        <div class="transaction__container--little--wrapper">
+                                            <div class="transaction__date--container">
+                                                <span>Mobile Service</span>
+                                                <span class="light__blue--span">25 Jan 2021</span>
+                                            </div>
+                                            <div class="four__span--container items__right">
+                                                <span class="light__blue--span">Service</span>
+                                                <span class="light__blue--span">1234 ****</span>
+                                                <span class="light__blue--span">Completed</span>
+                                                <span class="red__span">-$340</span>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="transaction__container--item">
+                                        <div class="transaction__icon--container red__background">
+                                            <img src="accets/images/icons/transaction-container-third-item.svg" alt="image"
+                                                width="27px" />
+                                        </div>
+                                        <div class="transaction__container--little--wrapper">
+                                            <div class="transaction__date--container">
+                                                <span>Emilly Wilson</span>
+                                                <span class="light__blue--span">25 Jan 2021</span>
+                                            </div>
+                                            <div class="four__span--container items__right">
+                                                <span class="light__blue--span">Transfer</span>
+                                                <span class="light__blue--span">1234 ****</span>
+                                                <span class="light__blue--span">Completed</span>
+                                                <span class="green__span">+$780</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <header>
+                                <button class="header__btn--red"></button>
+                                <button class="header__btn--blue"></button>
+                            </header>
+    
+                            <div class="card__section">
+                                <div class="card__section--header">
+                                    <h2>My Card</h2>
+                                    <h3>See All</h3>
+                                </div>
+    
+                                <div class="card__container card__container--blue white__text">
+                                    <div class="card__container--head">
+                                        <div class="head__container--item">
+                                            <span>Balance</span>
+                                            <span>$5,756</span>
+                                        </div>
+                                        <img src="accets/images/icons/blue-card-chip.svg" alt="image" />
+                                    </div>
+    
+                                    <div class="card__container--body">
+                                        <div class="body__container--item">
+                                            <span class="opacity__item">CARD HOLDER</span>
+                                            <span>Eddy Cusuma</span>
+                                        </div>
+    
+                                        <div class="body__container--item">
+                                            <span class="opacity__item">VALID THRU</span>
+                                            <span>12/22</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="card__container--foot card__foot--linear">
+                                        <span class="foot__container--item">3778 **** **** 1234</span>
+                                        <img src="accets/images/icons/blue-card-foots-item.svg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        
+                            <div class="main__third--section">
+                                <div>
+                                    <h2>Debit & Credit Overview</h2>
+                                <div class="dabit__container">
+                                    <div class="dabit__header">
+                                        <div>
+                                            <span>$7,560</span> Debited & <span>$5,420</span> Credited in this Week
+                                        </div>
+                                        <div>
+                                            <span><img src="accets/images/icons/debit-blue-icon.svg" alt="image" width="12px" />Debit</span>
+                                            <span><img src="accets/images/icons/debit-red-icon.svg" alt="image" width="12px" />Credit</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="dabit__body">
+                                        <div>
+                                            <img src="accets/images/icons/debit-first-column.svg" alt="image" />
+                                            <span>Sat</span>
+                                        </div>
+                                        <div>
+                                            <img src="accets/images/icons/debit-second-column.svg" alt="image" />
+                                            <span>Sun</span>
+                                        </div>
+                                        <div>
+                                            <img src="accets/images/icons/debit-third-column.svg" alt="image" />
+                                            <span>Mon</span>
+                                        </div>
+                                        <div>
+                                            <img src="accets/images/icons/debit-fourth-column.svg" alt="image" />
+                                            <span>Tue</span>
+                                        </div>
+                                        <div>
+                                            <img src="accets/images/icons/debit-fiveth-column.svg" alt="image" />
+                                            <span>Wed</span>
+                                        </div>
+                                        <div>
+                                            <img src="accets/images/icons/debit-sixth-column.svg" alt="image" />
+                                            <span>Thu</span>
+                                        </div>
+                                        <div>
+                                            <img src="accets/images/icons/debit-fiveth-column.svg" alt="image" />
+                                            <span>Fri</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+        
+                                
+                                <div>
+                                    <h2>Invoices Sent</h2>
+                                    <div class="invoices__container">
+                                        <div class="invoices__container--section">
+                                            <div class="content">
+                                                <div class="green__background invoices__icon--container">
+                                                    <img src="accets/images/icons/invoices-first-icon.svg" alt="image" />
+                                                </div>
+                                                <div class="invoices__container--text">
+                                                    <span class="gray__span">Apple Store</span>
+                                                    <span class="light__blue--span">5h ago</span>
+                                                </div>
+                                            </div>
+            
+                                            <span class="light__blue--span">$450</span>
+                                        </div>
+            
+                                        <div class="invoices__container--section">
+                                            <div class="content">
+                                                <div class="yellow__background invoices__icon--container">
+                                                    <img src="accets/images/icons/invoices-second-icon.svg" alt="image" />
+                                                </div>
+                                                <div class="invoices__container--text">
+                                                    <span class="gray__span">Michael</span>
+                                                    <span class="light__blue--span">2 days ago</span>
+                                                </div>
+                                            </div>
+            
+                                            <span class="light__blue--span">$160</span>
+                                        </div>
+            
+                                        <div class="invoices__container--section">
+                                            <div class="content">
+                                                <div class="blue__background invoices__icon--container">
+                                                    <img src="accets/images/icons/invoices-third-icon.svg" alt="image" />
+                                                </div>
+                                                <div class="invoices__container--text">
+                                                    <span class="gray__span">Playstation</span>
+                                                    <span class="light__blue--span">5 days ago</span>
+                                                </div>
+                                            </div>
+            
+                                            <span class="light__blue--span">$1085</span>
+                                        </div>
+            
+                                        <div class="invoices__container--section">
+                                            <div class="content">
+                                                <div class="red__background invoices__icon--container">
+                                                    <img src="accets/images/icons/invoices-fourth-icon.svg" alt="image" />
+                                                </div>
+                                                <div class="invoices__container--text">
+                                                    <span class="gray__span">William</span>
+                                                    <span class="light__blue--span">10 days ago</span>
+                                                </div>
+                                            </div>
+            
+                                            <span class="light__blue--span">$90</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankDash.</title>
+    <link rel="stylesheet" href="styles/transactions.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="whole__page--container">
+        <nav>
+            <div class="navigation">
+                <a href="index.html"><img src="accets/images/icons/bank-logo.svg" alt="image" /></a>
+
+                <ul class="navigation__container">
+                    <li class="navigation__container--item">
+                        <img src="accets/images/icons/nav-gray-home-icon.svg" alt="image" />
+                        <a href="index.html">Dashboard</a>
+                    </li>
+                    <li class="navigation__container--item">
+                        <div class="active__nav--container"></div>
+                        <div class="nav__item">
+                            <img src="accets/images/icons/transfer-blue--icon.svg" alt="image" />
+                            <a href="transactions.html">Transactions</a>
+                        </div>
+                    </li>
+                    <li class="navigation__container--item">
+                        <img src="accets/images/icons/nav-accounts.svg" alt="image" />
+                        <a href="accounts.html">Accounts</a>
+                    </li>
+                    <li class="navigation__container--item">
+                        <img src="accets/images/icons/nav-investiment.svg" alt="image" />
+                        <a href="investiments.html">Investiments</a>
+                    </li>
+                    <li class="navigation__container--item">
+                        <img src="accets/images/icons/nav-creditcard.svg" alt="image" />
+                        <a href="creditcards.html">Credit Card</a>
+                    </li>
+                    <li class="navigation__container--item">
+                        <img src="accets/images/icons/nav-loan.svg" alt="image" />
+                        <a href="loans.html">Loans</a>
+                    </li>
+                    <li class="navigation__container--item">
+                        <img src="accets/images/icons/nav-service.svg" alt="image" />
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li class="navigation__container--item">
+                        <img src="accets/images/icons/nav-privilegies.svg" alt="image" />
+                        <a href="">My Privilegies</a>
+                    </li>
+                    <li class="navigation__container--item">
+                        <img src="accets/images/icons/nav-setting.svg" alt="image" />
+                        <a href="setting.html">Setting</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <div class="header__main--container">
+            <header>
+                <div class="header__container">
+                    <h1>Transactions</h1>
+                    <div class="header__container--rightside">
+                        <div class="search__container--header">
+                            <img src="accets/images/icons/lupa.svg" alt="image" class="lupa__image" />
+                            <input type="text" placeholder="Search for something" class="header__input" />
+                        </div>
+                        <div class="header__icon--container">
+                            <img src="accets/images/icons/header-setting-icon.svg" alt="image" width="20px" />
+                        </div>
+                        <div class="header__icon--container">
+                            <img src="accets/images/icons/header-bell-icon.svg" alt="image" width="20px" />
+                        </div>
+                        <div>
+                            <img src="accets/images/header-user-image.png" alt="image" class="header__user--image" />
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="content__wrapper">
+                <main>
+                    <section>
+                        <div class="each__section">
+                            <div class="card__column">
+                                <h2>My Cards</h2>
+                                <div class="card__container card__container--blue white__text">
+                                    <div class="card__container--head">
+                                        <div class="head__container--item">
+                                            <span>Balance</span>
+                                            <span>$5,756</span>
+                                        </div>
+                                        <img src="accets/images/icons/blue-card-chip.svg" alt="image" />
+                                    </div>
+    
+                                    <div class="card__container--body">
+                                        <div class="body__container--item">
+                                            <span class="opacity__item">CARD HOLDER</span>
+                                            <span>Eddy Cusuma</span>
+                                        </div>
+    
+                                        <div class="body__container--item">
+                                            <span class="opacity__item">VALID THRU</span>
+                                            <span>12/22</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="card__container--foot card__foot--linear">
+                                        <span class="foot__container--item">3778 **** **** 1234</span>
+                                        <img src="accets/images/icons/blue-card-foots-item.svg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                            <div class="card__column">
+                                <h3 class="white__container--header">See All</h3>
+                                <div class="card__container card__container--white white__card--text--colour">
+                                    <div class="card__container--head">
+                                        <div class="head__container--item">
+                                            <span>Balance</span>
+                                            <span>$5,756</span>
+                                        </div>
+                                        <img src="accets/images/icons/white-card-chip.svg" alt="image" />
+                                    </div>
+    
+                                    <div class="card__container--body">
+                                        <div class="body__container--item">
+                                            <span class="opacity__item white__card--opacity--item">CARD HOLDER</span>
+                                            <span>Eddy Cusuma</span>
+                                        </div>
+    
+                                        <div class="body__container--item">
+                                            <span class="opacity__item white__card--opacity--item">VALID THRU</span>
+                                            <span>12/22</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="card__container--foot">
+                                        <span class="foot__container--item">3778 **** **** 1234</span>
+                                        <img src="accets/images/icons/white-card-foots-item.svg" alt="image" />
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card__column">
+                                <h2>My Expense</h2>
+                                <div class="statistic__card--page2">
+                                    <div class="statistic__card--item">
+                                        <img src="accets/images/icons/statistic-first-column.svg" alt="image" />
+                                        <span>Aug</span>
+                                    </div>
+                                    <div class="statistic__card--item">
+                                        <img src="accets/images/icons/statiastic-second-column.svg" alt="image" />
+                                        <span>Sep</span>
+                                    </div>
+                                    <div class="statistic__card--item">
+                                        <img src="accets/images/icons/statistic-first-column.svg" alt="image" />
+                                        <span>Oct</span>
+                                    </div>
+                                    <div class="statistic__card--item">
+                                        <img src="accets/images/icons/statistic-third-column.svg" alt="image" />
+                                        <span>Nov</span>
+                                    </div>
+                                    <div class="statistic__card--item">
+                                        <span>$12.500</span>
+                                        <img src="accets/images/icons/statiastic-second-column.svg" alt="image" />
+                                        <span>Dec</span>
+                                    </div>
+                                    <div class="statistic__card--item">
+                                        <img src="accets/images/icons/statistic-first-column.svg" alt="image" />
+                                        <span>Jan</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="third__section">
+                            <div class="card__column">
+                                <h2 class="recent-h2">Recent Transactions</h2>
+                                <div class="three__header">
+                                    <ul>
+                                        <li>
+                                            <a href=""><span id="blue__colored">All Transactions</span></a>
+                                            <div class="active__button"></div>
+                                        </li>
+                                        <li>
+                                            <a href="">Income</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Expense</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="table__container">
+                                <table class="table__wrapper">
+                                        <thead>
+                                            <tr>
+                                                <th>Description</th>
+                                                <th>Transaction ID</th>
+                                                <th>Type</th>
+                                                <th>Card</th>
+                                                <th>Date</th>
+                                                <th>Amount</th>
+                                                <th>Receipt</th>
+                                            </tr>
+                                        </thead>
+    
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="table__beggining--word">
+                                                        <img src="accets/images/icons/table-up-icon.svg" alt="image" />
+                                                        <span>Spotify Subscription</span>
+                                                    </div>
+                                                </td>
+                                                <td>#12548796</td>
+                                                <td>Shopping</td>
+                                                <td>1234 ****</td>
+                                                <td>28 Jan, 12.30 AM</td>
+                                                <td class="red__span">-$2,500</td>
+                                                <td><button>Download</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="table__beggining--word">
+                                                        <img src="accets/images/icons/table-down-icon.svg" alt="image" />
+                                                        <span>Freepik Sales</span>
+                                                    </div>
+                                                </td>
+                                                <td>#12548796</td>
+                                                <td>Transfer</td>
+                                                <td>1234 ****</td>
+                                                <td>25 Jan, 10.40 PM</td>
+                                                <td class="green__span">+$750</td>
+                                                <td><button>Download</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="table__beggining--word">
+                                                        <img src="accets/images/icons/table-up-icon.svg" alt="image" />
+                                                        <span>Mobile Service</span>
+                                                    </div>
+                                                </td>
+                                                <td>#12548796</td>
+                                                <td>Service</td>
+                                                <td>1234 ****</td>
+                                                <td>20 Jan, 10.40 PM</td>
+                                                <td class="red__span">-$150</td>
+                                                <td><button>Download</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="table__beggining--word">
+                                                        <img src="accets/images/icons/table-up-icon.svg" alt="image" />
+                                                        <span>Wilson</span>
+                                                    </div>
+                                                </td>
+                                                <td>#12548796</td>
+                                                <td>Transfer</td>
+                                                <td>1234 ****</td>
+                                                <td>15 Jan, 03.29 PM</td>
+                                                <td class="red__span">-$1050</td>
+                                                <td><button>Download</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="table__beggining--word">
+                                                        <img src="accets/images/icons/table-down-icon.svg" alt="image" />
+                                                        <span>Emilly</span>
+                                                    </div>
+                                                </td>
+                                                <td>#12548796</td>
+                                                <td>Transfer</td>
+                                                <td>1234 ****</td>
+                                                <td>14 Jan, 10.40 PM</td>
+                                                <td class="green__span">+$840</td>
+                                                <td><button>Download</button></td>
+                                            </tr>
+                                        </tbody>
+                                </table>
+                            </div>
+    
+                            <div class="slider">
+                                <div class="slider__head">
+                                    <img src="accets/images/icons/blue-nakleboba.svg" alt="image" /><span>Previous</span>
+                                </div>
+    
+                                <div class="slider__body">
+                                    <span class="slider__body--item">1</span>
+                                    <span>2</span>
+                                    <span>3</span>
+                                    <span>4</span>
+                                </div>
+    
+                                <div class="slider__head">
+                                    <span>Next</span>
+                                    <img src="accets/images/icons/blue-metoba.svg" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
